@@ -7,6 +7,8 @@ bot = commands.Bot(command_prefix='!')
 @bot.event
 async def on_ready():
     print('BRG Bot ({0.user}) is active.'.format(bot))
+    print(' ')
+    print('Made by Math Development')
     await bot.change_presence(status=discord.Status.online, activity=discord.Activity(type=discord.ActivityType.watching, name='BRG'))
 
 @bot.command()
