@@ -185,4 +185,4 @@ async def on_command_error(ctx, error):
 	if isinstance(error, commands.CommandNotFound):
 		await ctx.send(f'That command does not exsist.')
 
-bot.run('OTQ1Nzc5Nzk0NTcyOTAyNDQw.YhVIEg.S6I2Ue470spm2bSIIOFen2r4_TM')
+bot.run('TOKEN')
